@@ -16,8 +16,8 @@ import Footer from '../Components/Footer'
 const Blog = () => {
   return (
     <div>
-      <h1 className='text-4xl font-bold text-center'>Insights-</h1>
-      <div className='flex xl:gap-20 md:gap-10 gap-5 p-6 xl:my-20 my-10 md:mx-10 xl:mx-[150px] rounded-2xl bg-[#f6efe9]'>
+      <h1 className='text-4xl dark:text-white font-bold text-center'>Insights-</h1>
+      <div className='flex xl:gap-20 md:gap-10 gap-5 p-6 xl:my-20 my-10 md:mx-10 xl:mx-[150px] rounded-2xl dark:bg-zinc-900 dark:text-white bg-[#f6efe9]'>
         <img className='cursor-pointer hover:scale-105 w-1/2 rounded-2xl' src={c2} alt="" />
         <div>
             <h1 className='font-semibold w-20 text-center mx-auto rounded-md bg-green-600 text-white'>Strategy</h1>
@@ -30,8 +30,8 @@ const Blog = () => {
             <p className='text-green-700 xl:mt-20 border-b-2'>Continue reading</p>
         </div>
       </div>
-      <div className='flex mb-20 flex-wrap md:gap-5 xl:gap-8 md:mx-12 xl:mx-[150px]'>
-        <div className='md:w-[350px] z-10 relative xl:w-[380px]  p-5 rounded-3xl bg-[#f6efe9]'>
+      <div className='flex dark:text-white mb-20 flex-wrap md:gap-5 xl:gap-8 md:mx-12 xl:mx-[150px]'>
+        <div className='md:w-[350px] z-10 relative xl:w-[380px]  p-5 rounded-3xl dark:bg-zinc-900 dark:text-white bg-[#f6efe9]'>
             <img className='rounded-3xl' src={p2} alt="" />
             <h1 className='text-center mt-5 md:text-xl xl:text-2xl font-semibold'>How can marketing help your business?</h1>
             <p className='bg-green-700 p-1 rounded-md absolute top-8 left-10 text-white'>Business</p>
@@ -42,7 +42,7 @@ const Blog = () => {
             
         </div>
 
-        <div className='md:w-[350px] z-10 relative xl:w-[380px]  p-5 rounded-3xl bg-[#f6efe9]'>
+        <div className='md:w-[350px] z-10 relative xl:w-[380px]  p-5 rounded-3xl bg-[#f6efe9] dark:bg-zinc-900'>
             <img className='rounded-3xl' src={p3} alt="" />
             <h1 className='text-center mt-5 md:text-xl xl:text-2xl font-semibold'>How can marketing help your business?</h1>
             <p className='bg-green-700 p-1 rounded-md absolute top-8 left-10 text-white'>Business</p>
@@ -53,7 +53,7 @@ const Blog = () => {
             
         </div>
 
-        <div className='md:w-[350px] z-10 relative xl:w-[380px]  p-5 rounded-3xl bg-[#f6efe9]'>
+        <div className='md:w-[350px] z-10 relative xl:w-[380px]  p-5 rounded-3xl bg-[#f6efe9] dark:bg-zinc-900'>
             <img className='rounded-3xl' src={p4} alt="" />
             <h1 className='text-center mt-5 md:text-xl xl:text-2xl font-semibold'>How can marketing help your business?</h1>
             <p className='bg-green-700 p-1 rounded-md absolute top-8 left-10 text-white'>Business</p>
@@ -64,7 +64,7 @@ const Blog = () => {
             
         </div>
 
-        <div className='md:w-[350px] z-10 relative xl:w-[380px] p-5 rounded-3xl bg-[#f6efe9]'>
+        <div className='md:w-[350px] z-10 relative xl:w-[380px] p-5 rounded-3xl bg-[#f6efe9] dark:bg-zinc-900'>
             <img className='rounded-3xl' src={p5} alt="" />
             <h1 className='text-center mt-5 md:text-xl xl:text-2xl font-semibold'>How can marketing help your business?</h1>
             <p className='bg-green-700 p-1 rounded-md absolute top-8 left-10 text-white'>Business</p>
@@ -75,7 +75,7 @@ const Blog = () => {
             
         </div>
 
-        <div className='md:w-[350px] z-10 relative xl:w-[380px] p-5 rounded-3xl bg-[#f6efe9]'>
+        <div className='md:w-[350px] z-10 relative xl:w-[380px] p-5 rounded-3xl bg-[#f6efe9] dark:bg-zinc-900'>
             <img className='rounded-3xl' src={p6} alt="" />
             <h1 className='text-center mt-5 md:text-xl xl:text-2xl font-semibold'>How can marketing help your business?</h1>
             <p className='bg-green-700 p-1 rounded-md absolute top-8 left-10 text-white'>Business</p>
@@ -86,7 +86,7 @@ const Blog = () => {
             
         </div>
 
-        <div className='md:w-[350px] z-10 relative xl:w-[380px] p-5 rounded-3xl bg-[#f6efe9]'>
+        <div className='md:w-[350px] z-10 relative xl:w-[380px] p-5 rounded-3xl bg-[#f6efe9] dark:bg-zinc-900'>
             <img className='rounded-3xl' src={p7} alt="" />
             <h1 className='text-center mt-5 md:text-xl xl:text-2xl font-semibold'>How can marketing help your business?</h1>
             <p className='bg-green-700 p-1 rounded-md absolute top-8 left-10 text-white'>Business</p>

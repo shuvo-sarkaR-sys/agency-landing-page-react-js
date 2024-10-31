@@ -11,7 +11,7 @@ import { Carousel } from "flowbite-react";
 
 const Team = () => {
   return (
-    <div className='text-center pb-10'>
+    <div className='text-center pb-10 dark:text-white'>
       <h1 className='text-green-600 font-semibold mb-7'>Our team</h1>
       <p className='md:text-4xl text-xl font-bold mb-8'>People you'll be working with</p>
       <p>We're a 100% remote team spread all across the world.</p>

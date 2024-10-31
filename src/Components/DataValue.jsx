@@ -9,9 +9,9 @@ import featureImage2 from '../assets/feature-image-01.jpg'
 const DataValue = () => {
     return (
         <div>
-            <div className='text-center my-20'>
+            <div className='text-center my-20 dark:text-white'>
                 <h1 className='xl:text-3xl md:text-2xl text-2xl font-bold mb-4'>Unlock the value of your Data</h1>
-                <p className='text-gray-500 mx-4 mb-4'>Lexend is a proven leader in trust intelligence, recognized by top analyst firms.</p>
+                <p className='text-gray-500 dark:text-gray-400 mx-4 mb-4'>Lexend is a proven leader in trust intelligence, recognized by top analyst firms.</p>
                 <div className='flex w-[250px] gap-2 mx-auto'>
                     <div className='border-2 p-2 rounded-md'>
                         <img src="#" alt="" />
@@ -20,7 +20,7 @@ const DataValue = () => {
                     <p className='bg-green-700 rounded-md p-2 text-lg text-white'>Start a free trial</p>
                 </div>
             </div>
-            <div className='flex  flex-wrap bg-[#f6efe9]'>
+            <div className='flex  flex-wrap rounded-2xl dark:text-white dark:bg-zinc-900 bg-[#f6efe9]'>
                 <div className=' w-[750px]  h-[100%]'>
                     <img className='rounded-t-xl rounded-bl-xl ' src={featureImage} alt="" />
                 </div>

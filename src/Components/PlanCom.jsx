@@ -29,10 +29,10 @@ const handleClick4 = ()=>{
   setShowtext3(false)
 }
   return (
-    <div className='text-center'>
+    <div className='text-center dark:text-white'>
       <p className='text-lg h-12 mt-20 mb-10 font-semibold pt-2 border-2 w-48 mx-auto text-center rounded-lg'>Compare plans</p>
       <p className='font-medium'>Prices exclude any applicable taxes.</p>
-      <div className='bg-[#f6efe9] py-5 mt-10 rounded-2xl md:mx-[50px] m-auto'>
+      <div className='bg-[#f6efe9] dark:bg-zinc-900 py-5 mt-10 rounded-2xl md:mx-[50px] m-auto'>
        <br />
        <br />
             <img className='m-auto ' src={brand} alt="" />
@@ -110,7 +110,7 @@ const handleClick4 = ()=>{
 </p>}
        </div>
       </div>
-      <div className='md:w-[800px] rounded-xl my-16 py-8 md:py-16 mx-auto bg-[#f6efe9]'>
+      <div className='md:w-[800px] rounded-xl my-16 py-8 md:py-16 mx-auto dark:bg-zinc-900  bg-[#f6efe9]'>
         <div className='w-[65px] flex mx-auto'>
           <img className='rounded-full ml-[-46px]' src={p1} alt="" />
           <img className='rounded-full ml-[-13px]' src={p2} alt="" />

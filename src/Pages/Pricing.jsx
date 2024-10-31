@@ -2,14 +2,14 @@ import React from 'react'
 
 const Pricing = () => {
     return (
-        <div className='text-center mt-10 xl:mt-20'>
+        <div className='text-center dark:text-white mt-10 xl:mt-20'>
             <h1 className='text-green-700 mb-5 font-semibold'>Pricing</h1>
             <h1 className='text-4xl font-semibold '>Simple, scalable pricing.</h1>
             <p>No extra charges. No hidden fees</p>
             <br />
             <div id='price' className='flex mt-10'>
                 <div className='mx-auto md:gap-5 gap-3 flex flex-wrap'>
-                <div className='bg-[#f6efe9] w-[200px] h-[250px] md:w-[350px] md:h-[700px] xl:w-[520px] px-4 py-3 md:px-10 md:py-8 xl:h-[700px] rounded-2xl'>
+                <div className='bg-[#f6efe9] dark:bg-zinc-900 w-[200px] h-[250px] md:w-[350px] md:h-[700px] xl:w-[520px] px-4 py-3 md:px-10 md:py-8 xl:h-[700px] rounded-2xl'>
                     <p className='text-green-700 md:my-10 xl:my-10 md:text-xl font-bold'>Starter</p>
                     <p className='xl:text-5xl md:text-5xl text-2xl font-bold mb-6'>$49 <span className='md:text-lg text-sm'>/mo</span></p>
                     <p className='md:mb-10'>For creating impressive tools that generate results.</p>
@@ -54,7 +54,7 @@ const Pricing = () => {
                     </div>
                     </div>
                 </div>
-                <div className='bg-[#f6efe9] w-[200px] h-[250px] md:w-[350px] xl:w-[520px] px-4 py-3 md:px-10 md:py-8 xl:h-[700px] md:h-[700px] rounded-2xl'>
+                <div className='bg-[#f6efe9] dark:bg-zinc-900 w-[200px] h-[250px] md:w-[350px] xl:w-[520px] px-4 py-3 md:px-10 md:py-8 xl:h-[700px] md:h-[700px] rounded-2xl'>
                     <p className='text-green-700 xl:my-10 md:my-10 text-xl font-bold'>Pro</p>
                     <p className='xl:text-5xl md:text-5xl text-2xl font-bold  mb-5'>$79 <span className='text-lg'>/mo</span></p>
                     <p className='xl:mb-10 md:mb-10 mb-1'>For seamless integrations and sending tools in bulk.</p>

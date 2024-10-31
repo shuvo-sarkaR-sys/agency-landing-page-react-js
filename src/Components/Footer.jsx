@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../assets/logo-dark.svg'
 const Footer = () => {
   return (
-    <div className='bg-[#0e0e0e] px-[40px]  xl:px-[150px] text-white pt-7 xl:pt-20'>
+    <div id='footer' className='bg-[#0e0e0e] px-[40px]  xl:px-[150px] text-white pt-7 xl:pt-20'>
         <div className='flex flex-wrap justify-between'>
             <div>
                 <h1 className='text-4xl font-medium mb-5'>Sign up now or never!</h1>

@@ -4,9 +4,9 @@ const Feature = () => {
     return (
         <div >
             <div className=' text-center sm:mt-5 md:mt-5  m-auto xl:mt-32'>
-                <h1 className=' border-2 mx-auto w-20 rounded-lg text-green-700 font-semibold'>Features</h1>
+                <h1 className=' border-2 mx-auto w-20 rounded-lg dark:text-white text-green-700 font-semibold'>Features</h1>
                 <h1 className='xl:text-6xl md:3xl text-2xl xl:my-10 my-5  font-bold dark:text-white'>Recognized by the experts</h1>
-                <p className='text-xl mx-5 xl:mx-20 dark:text-white'>offers a unified platform that fosters innovation while providing end-to-end data management.
+                <p className='text-xl mx-5 xl:mx-20 dark:text-gray-400'>offers a unified platform that fosters innovation while providing end-to-end data management.
                     See how we help your team solve today's biggest challenges.
                 </p>
             </div>
