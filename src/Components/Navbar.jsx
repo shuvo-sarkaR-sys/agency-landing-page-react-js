@@ -1,16 +1,14 @@
 import React, { useState } from 'react'
 import messege from '../assets/message.png'
 import call from '../assets/call-outgoing.png'
-import logo from '../assets/logo-light.svg'
-import earth from '../assets/earth.png'
+ import earth from '../assets/earth.png'
 import p1 from '../assets/index1.jpg'
 import p2 from '../assets/index-2.jpg'
 import p3 from '../assets/index-3.jpg'
 import p4 from '../assets/index-4.jpg'
 import image from '../assets/image.jpg'
 import { Link } from 'react-router-dom'
-import logo2 from '../assets/logo-dark.svg'
-
+ 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const handleClick = () => {
@@ -40,7 +38,7 @@ const Navbar = () => {
       </div>
       <div className='flex    justify-between px-14 h-16 items-center'>
         <div className='flex gap-20'>
-          <Link to="/"><img src={logo} alt="" /></Link>
+          <Link to="/"><h1 className='dark:text-white text-3xl font-bold items-center'>Dexend</h1></Link>
           <ul className='  xl:flex   hidden gap-10 font-medium items-center'>
             <div className='relative group'>
               <div className='flex gap-2 hover:text-slate-500 p-4 cursor-pointer'>

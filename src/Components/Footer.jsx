@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from '../assets/logo-dark.svg'
 const Footer = () => {
   return (
     <div id='footer' className='bg-[#0e0e0e] px-[40px]  xl:px-[150px] text-white pt-7 xl:pt-20'>
@@ -17,7 +16,7 @@ const Footer = () => {
         <hr />
         <div className='mt-20  flex gap-20 flex-wrap'>
             <div >
-                <img src={logo} alt="" />
+                 <h1>Dexend</h1>
                 <p>Design amazing digital experiences that create more happy in the world.</p>
                 </div>
                 <div className='flex flex-wrap gap-20'>

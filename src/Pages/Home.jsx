@@ -17,7 +17,7 @@ const Home = () => {
       <Pricing/>
       <PlanCom/>
       <Team/>
-      
+      <Post/>
       <Footer/>
       <Scroll/>
     </div>
