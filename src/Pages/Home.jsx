@@ -5,7 +5,7 @@ import DataValue from '../Components/DataValue'
 import Pricing from '../Pages/Pricing'
 import PlanCom from '../Components/PlanCom'
 import Team from '../Components/Team'
-import Post from '../Components/post'
+import Post from '../Components/Post'
 import Footer from '../Components/Footer'
 import Scroll from '../Components/Scroll'
 const Home = () => {
