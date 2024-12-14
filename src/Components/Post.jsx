@@ -1,5 +1,10 @@
 import React from 'react'
-import { Carousel } from "flowbite-react";
+import { Pagination, Autoplay } from 'swiper/modules'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import 'swiper/css'
+import 'swiper/css/pagination'
+
+
 import p1 from '../assets/p1.jpg'
 import p2 from '../assets/p2.jpg'
 import p3 from '../assets/p3.jpg'
@@ -16,7 +21,20 @@ const Post = () => {
       <button className='p-3 rounded-xl md:p-1 md:text-lg text-xs font-medium bg-green-600 text-white'>View all posts</button>
       </div>
       <div className="h-56 mt-14   sm:h-64 xl:h-80 2xl:h-96">
-      <Carousel>
+      <Swiper 
+      spaceBetween={30}
+      centeredSlides={true}
+      autoplay={{
+        delay: 2500,
+        disableOnInteraction: false,
+      }}
+      pagination={{
+        clickable:true,
+        el: '.custom-pagination',
+      }}
+      modules={[Autoplay, Pagination,]}
+      >
+        <SwiperSlide>
          <div className='flex gap-5 mx-0 md:mx-[100px]'>
           <div className='w-[350px] '>
           <img className='w-[350px]    rounded-xl' src={p1} alt="" />
@@ -40,8 +58,8 @@ const Post = () => {
           </div>
          
           </div>
- 
-          
+ </SwiperSlide>
+          <SwiperSlide>
           <div className='flex gap-5 mx-0 md:mx-[100px]'>
           <div className='w-[350px]'>
              <img className='rounded-lg  md:h-fit w-[350px]' src={p4} alt="" />
@@ -62,7 +80,8 @@ const Post = () => {
              <p className='text-green-600'>Read post</p>
           </div>
         </div>
-      </Carousel>
+        </SwiperSlide>
+      </Swiper>
     </div>
     </div>
   )
