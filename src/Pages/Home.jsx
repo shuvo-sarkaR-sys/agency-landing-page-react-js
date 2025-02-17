@@ -8,6 +8,7 @@ import Team from '../Components/Team'
 import Post from '../Components/Post'
 import Footer from '../Components/Footer'
 import Scroll from '../Components/Scroll'
+import ChatBot from '../Components/ChatBot'
 const Home = () => {
   return (
     <div>
@@ -20,6 +21,7 @@ const Home = () => {
       <Post/>
       <Footer/>
       <Scroll/>
+      <ChatBot/>
     </div>
   )
 }
