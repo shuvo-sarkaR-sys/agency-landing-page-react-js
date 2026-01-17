@@ -15,43 +15,43 @@ const Team = () => {
       <h1 className='text-green-600 font-semibold mb-7'>Our team</h1>
       <p className='md:text-4xl text-xl font-bold mb-8'>People you'll be working with</p>
       <p>We're a 100% remote team spread all across the world.</p>
-      <div className='flex mt-10 xl:mx-[200px]  mx-24 md:mx-20 flex-wrap gap-7 '>
-        <div className='md:w-[250px] '>
+      <div className='flex mt-10 xl:mx-[200px]  mx-4 md:mx-20 flex-wrap gap-7 '>
+        <div className='md:w-[250px] w-[45%]'>
             <img className='rounded-xl' src={im1} alt="" />
             <h1 className='font-bold text-lg ml-3 text-start'>Jason Chedjou</h1>
             <p className='text-gray-600 text-start ml-3'>Front-end Developer</p>
         </div>
-        <div className='w-[250px]'>
+        <div className='md:w-[250px] w-[45%]'>
             <img src={im8} alt="" />
             <h1 className='font-bold text-lg ml-3 text-start'>Marco Kelly</h1>
             <p className='text-gray-600 text-start ml-3'>Customer Success</p>
         </div>
-        <div className='w-[250px]'>
+        <div className='md:w-[250px] w-[45%]'>
             <img src={im2} alt="" />
             <h1 className='font-bold text-lg ml-3 text-start'>José Gibbons</h1>
             <p className='text-gray-600 text-start ml-3'>Engineering Manager</p>
         </div>
-        <div className='w-[250px]'>
+        <div className='md:w-[250px] w-[45%]'>
             <img src={im3} alt="" />
             <h1 className='font-bold text-lg ml-3 text-start'>Nilson Laurent</h1>
             <p className='text-gray-600 text-start ml-3'>Founder & CEO</p>
         </div>
-        <div className='w-[250px]'>
+        <div className='md:w-[250px] w-[45%]'>
             <img src={im4} alt="" />
             <h1 className='font-bold text-lg ml-3 text-start'>John Hewitt</h1>
             <p className='text-gray-600 text-start ml-3'>Product Manager</p>
         </div>
-        <div className='w-[250px]'>
+        <div className='md:w-[250px] w-[45%]'>
             <img src={im5} alt="" />
             <h1 className='font-bold text-lg ml-3 text-start'>Zouhir Christensen</h1>
             <p className='text-gray-600 text-start ml-3'>Backend Developer</p>
         </div>
-        <div className='w-[250px]'>
+        <div className='md:w-[250px] w-[45%]'>
             <img src={im6} alt="" />
             <h1 className='font-bold text-lg ml-3 text-start'>Zaid Schwartz</h1>
             <p className='text-gray-600 text-start ml-3'>Product Designer</p>
         </div>
-        <div className='w-[250px]'>
+        <div className='md:w-[250px] w-[45%]'>
             <img src={im7} alt="" />
             <h1 className='font-bold text-lg ml-3 text-start'>Sarah Mandella</h1>
             <p className='text-gray-600 text-start ml-3'>UX Researcher</p>
@@ -59,7 +59,7 @@ const Team = () => {
         
       </div>
 
-      <div className='my-20'>
+      <div className='md:my-20 mt-10'>
         <h1 className='md:text-4xl text-2xl font-bold mb-8'>We’re hiring</h1>
         <p>We are looking for people that share our vision. Are <br /> you adaptable, driven, and friendly?</p>
         <button className='text-lg mt-5 border-2 rounded-xl font-semibold p-2'>Submit application</button>

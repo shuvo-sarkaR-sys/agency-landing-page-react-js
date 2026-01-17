@@ -1,25 +1,25 @@
 import React from 'react'
 const Footer = () => {
   return (
-    <div id='footer' className='bg-[#0e0e0e] px-[40px]  xl:px-[150px] text-white pt-7 xl:pt-20'>
+    <div id='footer' className='bg-[#0e0e0e] px-[16px]  xl:px-[150px] text-white pt-7 xl:pt-20'>
         <div className='flex flex-wrap justify-between'>
             <div>
                 <h1 className='text-4xl font-medium mb-5'>Sign up now or never!</h1>
                 <p>Stay up to date with the latest news, announcements, and articles.</p>
             </div>
-            <div>
-               <input className='h-[48px] w-[350px] mr-3 rounded-md' type="email" />
+            <div className='flex mt-5'>
+               <input className='h-[48px] w-full md:w-[350px] mr-3 rounded-md' type="email" />
                <button className='bg-green-600 p-3 mb-16 rounded-md'>Subcribe</button>
             </div>
 
         </div>
         <hr />
-        <div className='mt-20  flex gap-20 flex-wrap'>
+        <div className='md:mt-20 mt-10  flex gap-10 md:gap-20 flex-wrap'>
             <div >
                  <h1>Dexend</h1>
                 <p>Design amazing digital experiences that create more happy in the world.</p>
                 </div>
-                <div className='flex flex-wrap gap-20'>
+                <div className='flex flex-wrap gap-8 md:gap-20'>
                     <div>
                         <ul className='leading-9'>
                             <li className='text-gray-400'>Product</li>

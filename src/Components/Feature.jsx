@@ -35,38 +35,38 @@ const Feature = () => {
                 <div className='xl:my-10 my-4 bg-green-700 w-12 p-3 rounded-xl'>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M6.5 4.5a3.5 3.5 0 117 0V5h.034c.67 0 1.223 0 1.675.03.47.033.904.101 1.322.274a4 4 0 012.165 2.165c.173.418.241.852.273 1.321.015.214.022.45.026.71h.505a3.5 3.5 0 110 7H19v.741c0 .805 0 1.47-.044 2.01-.046.563-.145 1.08-.392 1.565a4 4 0 01-1.748 1.748c-.485.247-1.002.346-1.564.392-.541.044-1.206.044-2.01.044H12.5a1 1 0 01-1-1v-1.75a1.25 1.25 0 10-2.5 0V22a1 1 0 01-1 1H6.759c-.805 0-1.47 0-2.01-.044-.563-.046-1.08-.145-1.565-.392a4 4 0 01-1.748-1.748c-.247-.485-.346-1.002-.392-1.564C1 18.71 1 18.046 1 17.242V15.5a1 1 0 011-1h1.5a1.5 1.5 0 000-3H2a1 1 0 01-1-1v-.034c0-.67 0-1.223.03-1.676.033-.469.101-.903.274-1.32A4 4 0 013.47 5.303c.418-.173.852-.241 1.321-.273C5.243 5 5.796 5 6.466 5H6.5v-.5zM10 3a1.5 1.5 0 00-1.5 1.5V6a1 1 0 01-1 1h-1c-.713 0-1.197 0-1.573.026-.368.025-.559.07-.692.126a2 2 0 00-1.083 1.083c-.055.133-.1.324-.126.692a10.98 10.98 0 00-.021.573H3.5a3.5 3.5 0 110 7H3v.7c0 .857 0 1.439.038 1.889.035.438.1.663.18.819a2 2 0 00.874.874c.156.08.38.145.819.18C5.361 21 5.943 21 6.8 21H7v-.75a3.25 3.25 0 016.5 0V21c.696 0 1.194-.005 1.589-.038.438-.035.663-.1.819-.18a2 2 0 00.874-.874c.08-.156.145-.38.18-.819.037-.45.038-1.032.038-1.889v-1.7a1 1 0 011-1h1.5a1.5 1.5 0 000-3H18a1 1 0 01-1-1c0-.713 0-1.197-.026-1.573-.025-.368-.07-.559-.126-.692a2 2 0 00-1.083-1.083c-.133-.055-.324-.1-.692-.126C14.697 7.001 14.213 7 13.5 7h-1a1 1 0 01-1-1V4.5A1.5 1.5 0 0010 3z" fill="white"/></svg>
                       </div>
-                    <h1  className='text-xl font-medium'>Enrich Data with Context</h1>
+                    <h1  className='text-xl line-clamp-1 font-medium'>Enrich Data with Context</h1>
                     <p>Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.</p>
-                    <div className='flex'><p>Learn more</p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="size-5">
+                    <div className='flex mt-2'><p>Learn more</p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="size-5 mt-1">
                         <path fillRule="evenodd" d="M2 10a.75.75 0 0 1 .75-.75h12.59l-2.1-1.95a.75.75 0 1 1 1.02-1.1l3.5 3.25a.75.75 0 0 1 0 1.1l-3.5 3.25a.75.75 0 1 1-1.02-1.1l2.1-1.95H2.75A.75.75 0 0 1 2 10Z" clipRule="evenodd" /></svg>
                     </div>
                 </div>
                 <div className='xl:w-[415px] w-1/2 p-3 md:p-10'>
-                <div className='my-10 bg-green-700 w-12 p-3 rounded-xl'>
+                <div className='xl:my-10 my-4 bg-green-700 w-12 p-3 rounded-xl'>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M19.16 1.013a1 1 0 01.734.54l.851 1.702 1.702.85a1 1 0 01.26 1.602l-3 3A1 1 0 0119 9h-2.586l-3.707 3.707a1 1 0 01-1.414-1.414L15 7.586V5a1 1 0 01.293-.707l3-3a1 1 0 01.867-.28zM17 7h1.586l1.726-1.726-.76-.38a1 1 0 01-.447-.447l-.379-.759L17 5.414V7zm-5-4a9 9 0 109 9 1 1 0 112 0c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1a1 1 0 110 2zm0 5a4 4 0 104 4 1 1 0 112 0 6 6 0 11-6-6 1 1 0 110 2z" fill="white"/></svg>
                        </div>
                     <h1  className='text-xl font-medium'>Risk Management</h1>
                     <p>Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.</p>
-                    <div className='flex'><p>Learn more</p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="size-5">
+                    <div className='flex mt-2'><p>Learn more</p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="size-5 mt-1">
                         <path fillRule="evenodd" d="M2 10a.75.75 0 0 1 .75-.75h12.59l-2.1-1.95a.75.75 0 1 1 1.02-1.1l3.5 3.25a.75.75 0 0 1 0 1.1l-3.5 3.25a.75.75 0 1 1-1.02-1.1l2.1-1.95H2.75A.75.75 0 0 1 2 10Z" clipRule="evenodd" /></svg>
                     </div>
                 </div>
                 <div className='xl:w-[415px] w-1/2 dark:bg-zinc-900 p-3 md:p-10'>
-                <div className='my-10 bg-green-700 w-12 p-3 rounded-xl'>
+                <div className='xl:my-10 my-4 bg-green-700 w-12 p-3 rounded-xl'>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M18 6a2 2 0 100 4 2 2 0 000-4zm-3.874 1A4.002 4.002 0 0122 8a4 4 0 01-7.874 1H3a1 1 0 010-2h11.126zM6 14a2 2 0 100 4 2 2 0 000-4zm-4 2a4 4 0 017.874-1H21a1 1 0 110 2H9.874A4.002 4.002 0 012 16z" fill="white"/></svg>
                         </div>
-                    <h1  className='text-xl font-medium'>Third-Party Management</h1>
+                    <h1  className='text-xl line-clamp-1 font-medium'>Third-Party Management</h1>
                     <p>Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.</p>
-                    <div className='flex'><p>Learn more</p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="size-5">
+                    <div className='flex mt-2'><p>Learn more</p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="size-5 mt-1">
                         <path fillRule="evenodd" d="M2 10a.75.75 0 0 1 .75-.75h12.59l-2.1-1.95a.75.75 0 1 1 1.02-1.1l3.5 3.25a.75.75 0 0 1 0 1.1l-3.5 3.25a.75.75 0 1 1-1.02-1.1l2.1-1.95H2.75A.75.75 0 0 1 2 10Z" clipRule="evenodd" /></svg>
                     </div>
                 </div>
-                <div className='xl:w-[415px] w-1/2 p-10'>
-                <div className='my-10 bg-green-700 w-12 p-3 rounded-xl'>
+                <div className='xl:w-[415px] w-1/2 p-3 md:p-10'>
+                <div className='xl:my-10 my-4 bg-green-700 w-12 p-3 rounded-xl'>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 3a9 9 0 100 18 9 9 0 000-18zM1 12C1 5.925 5.925 1 12 1s11 4.925 11 11-4.925 11-11 11S1 18.075 1 12zm4.293-2.707a1 1 0 011.414 0L10 12.586l2.727-2.727.017-.017c.084-.084.184-.185.28-.266.111-.094.28-.22.513-.295a1.5 1.5 0 01.926 0c.233.075.402.2.513.295.096.081.196.182.28.266l.017.017 3.434 3.434a1 1 0 01-1.414 1.414L14 11.414l-2.727 2.727-.017.017a4.912 4.912 0 01-.28.266 1.52 1.52 0 01-.513.296 1.5 1.5 0 01-.927 0 1.51 1.51 0 01-.512-.296c-.096-.081-.196-.182-.28-.266l-.017-.017-3.434-3.434a1 1 0 010-1.414z" fill="white"/></svg>                        </div>
-                    <h1 className='text-xl font-medium'>Privacy Compliance</h1>
+                    <h1 className='text-xl font-medium line-clamp-1'>Privacy Compliance</h1>
                     <p>Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.</p>
-                    <div className='flex '><p>Learn more</p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="size-5">
+                    <div className='flex mt-2'><p>Learn more</p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="size-5 mt-1">
                        <path fillRule="evenodd" d="M2 10a.75.75 0 0 1 .75-.75h12.59l-2.1-1.95a.75.75 0 1 1 1.02-1.1l3.5 3.25a.75.75 0 0 1 0 1.1l-3.5 3.25a.75.75 0 1 1-1.02-1.1l2.1-1.95H2.75A.75.75 0 0 1 2 10Z" clipRule="evenodd" /></svg>
                     </div>
                 </div>

@@ -8,12 +8,12 @@ const Pricing = () => {
             <p>No extra charges. No hidden fees</p>
             <br />
             <div id='price' className='flex mt-10'>
-                <div className='mx-auto md:gap-5 gap-3 flex flex-wrap'>
-                <div className='bg-[#f6efe9] dark:bg-zinc-900 w-[200px] h-[250px] md:w-[350px] md:h-[700px] xl:w-[520px] px-4 py-3 md:px-10 md:py-8 xl:h-[700px] rounded-2xl'>
+                <div className='mx-auto md:gap-5 gap-3 flex justify-center flex-wrap'>
+                <div className='bg-[#f6efe9] dark:bg-zinc-900 w-[45%]   md:w-[350px] md:h-[700px] xl:w-[520px] px-4 py-3 md:px-10 md:py-8 xl:h-[700px] rounded-2xl'>
                     <p className='text-green-700 md:my-10 xl:my-10 md:text-xl font-bold'>Starter</p>
                     <p className='xl:text-5xl md:text-5xl text-2xl font-bold mb-6'>$49 <span className='md:text-lg text-sm'>/mo</span></p>
                     <p className='md:mb-10'>For creating impressive tools that generate results.</p>
-                    <button className='bg-green-700 mb-4 p-2 md:p-3 text-white md:text-2xl xl:w-[430px] rounded-lg'>Get started</button>
+                    <button className='bg-green-700 mb-4 mt-4 p-2 md:p-3 text-white md:text-2xl xl:w-[430px] rounded-lg'>Get started</button>
                     <p className='mb-5'>Billed annually</p>
                     <hr />
                     <div className='xl:block md:block hidden'>
@@ -54,11 +54,11 @@ const Pricing = () => {
                     </div>
                     </div>
                 </div>
-                <div className='bg-[#f6efe9] dark:bg-zinc-900 w-[200px] h-[250px] md:w-[350px] xl:w-[520px] px-4 py-3 md:px-10 md:py-8 xl:h-[700px] md:h-[700px] rounded-2xl'>
+                <div className='bg-[#f6efe9] dark:bg-zinc-900 w-[45%]   md:w-[350px] xl:w-[520px] px-4 py-3 md:px-10 md:py-8 xl:h-[700px] md:h-[700px] rounded-2xl'>
                     <p className='text-green-700 xl:my-10 md:my-10 text-xl font-bold'>Pro</p>
                     <p className='xl:text-5xl md:text-5xl text-2xl font-bold  mb-5'>$79 <span className='text-lg'>/mo</span></p>
                     <p className='xl:mb-10 md:mb-10 mb-1'>For seamless integrations and sending tools in bulk.</p>
-                    <button className='bg-green-700 mb-4 p-3 text-white text-xs md:text-2xl  md:w-[230px] rounded-lg'>Start a free trial</button>
+                    <button className='bg-green-700 mb-4 p-3 mt-4 text-white text-xs md:text-2xl  md:w-[230px] rounded-lg'>Start a free trial</button>
                     <p className='xl:mb-4 mb-5 md:mb-4'>Billed annually</p>
                     <hr />
                     <div className='xl:block md:block hidden'> 

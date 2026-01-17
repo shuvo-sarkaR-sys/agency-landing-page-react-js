@@ -13,14 +13,14 @@ import p5 from '../assets/p5.jpg'
 import p6 from '../assets/p6.jpg'
 const Post = () => {
   return (
-    <div className=' md:px-[150px] px-10 py-[75px] dark:bg-zinc-900 dark:text-white bg-[#f6efe9]'>
+    <div className=' md:px-[150px] px-5 py-[50px] dark:bg-zinc-900 dark:text-white bg-[#f6efe9]'>
       <p className='text-green-600'>Latest posts</p>
       <h1 className='md:text-4xl text-xl my-5 text-start font-bold'>Latest from insights</h1>
       <div className='flex justify-between'>
       <p>Interviews, tips, guides, industry best practices, and news.</p>
-      <button className='p-3 rounded-xl md:p-1 md:text-lg text-xs font-medium bg-green-600 text-white'>View all posts</button>
+      <button className='xl:p-3 p-1 rounded-xl xl:py-2 md:text-lg text-xs font-medium bg-green-600 text-white'>View all posts</button>
       </div>
-      <div className="h-56 mt-14   sm:h-64 xl:h-80 2xl:h-96">
+      <div className=" md:mt-14 mt-5   ">
       <Swiper 
       spaceBetween={30}
       centeredSlides={true}

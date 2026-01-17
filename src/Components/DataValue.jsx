@@ -9,7 +9,7 @@ import featureImage2 from '../assets/feature-image-01.jpg'
 const DataValue = () => {
     return (
         <div>
-            <div className='text-center my-20 dark:text-white'>
+            <div className='text-center my-8 xl:my-20 dark:text-white'>
                 <h1 className='xl:text-3xl md:text-2xl text-2xl font-bold mb-4'>Unlock the value of your Data</h1>
                 <p className='text-gray-500 dark:text-gray-400 mx-4 mb-4'>Lexend is a proven leader in trust intelligence, recognized by top analyst firms.</p>
                 <div className='flex w-[250px] gap-2 mx-auto'>
@@ -21,10 +21,10 @@ const DataValue = () => {
                 </div>
             </div>
             <div className='flex  flex-wrap rounded-2xl dark:text-white dark:bg-zinc-900 bg-[#f6efe9]'>
-                <div className=' w-[750px]  h-[100%]'>
+                <div className=' md:w-[750px] w-full  h-[100%]'>
                     <img className='rounded-t-xl rounded-bl-xl ' src={featureImage} alt="" />
                 </div>
-                <div className='xl:py-32 py-16 px-8  w-[600px]  xl:px-20  '>
+                <div className='xl:py-32 py-16 px-8 w-full xl:w-[600px]  xl:px-20  '>
                     <h1 className='xl:text-4xl md:text-3xl text-2xl font-bold mb-5'>End-to-End Data Shared <br />Management</h1>
                     <p>Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.</p>
                     <div className='mt-10 mb-5'>
@@ -59,7 +59,7 @@ const DataValue = () => {
                         <h1 className='text-xl font-semibold'>Track progress effortlessly</h1>
                         <p>Providing end-to-end data management today's challenges.</p>
                     </div>
-                    <div className='w-[400px] mx-auto xl:w-[770px] '><img className='rounded-tr-xl  rounded-b-xl'  src={featureImage2} alt="" /></div>
+                    <div className='w-auto mx-auto xl:w-[770px] '><img className='rounded-tr-xl  rounded-b-xl'  src={featureImage2} alt="" /></div>
                 </div>
             </div>
              

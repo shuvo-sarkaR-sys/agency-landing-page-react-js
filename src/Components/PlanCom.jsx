@@ -30,9 +30,9 @@ const handleClick4 = ()=>{
 }
   return (
     <div className='text-center dark:text-white'>
-      <p className='text-lg h-12 mt-20 mb-10 font-semibold pt-2 border-2 w-48 mx-auto text-center rounded-lg'>Compare plans</p>
+      <p className='text-lg h-12 mt-10  md:mt-20 mb-10 font-semibold pt-2 border-2 w-48 mx-auto text-center rounded-lg'>Compare plans</p>
       <p className='font-medium'>Prices exclude any applicable taxes.</p>
-      <div className='bg-[#f6efe9] dark:bg-zinc-900 py-5 mt-10 rounded-2xl md:mx-[50px] m-auto'>
+      <div className='bg-[#f6efe9] mx-4 p-3 dark:bg-zinc-900 py-5 mt-10 rounded-2xl md:mx-[50px] m-auto'>
        <br />
        <br />
             <img className='m-auto ' src={brand} alt="" />
@@ -42,14 +42,14 @@ const handleClick4 = ()=>{
          <p className='mt-10'>Anna Yon</p>
          <p className='text-gray-500'>Senior UI/UX Designer</p>
       </div>
-      <div className='my-16 text-green-700 font-semibold'>
+      <div className='md:my-16 my-10 text-green-700 font-semibold'>
       <p>See all feedbacks </p>
       <img src="" alt="" />
       </div>
       <p>FAQ</p>
       <h1 className='text-4xl my-5 font-bold'>Frequenlty asked questions:</h1>
       <p>Everything you need to know about the product and billing.</p>
-      <div className='md:w-[700px] mt-8 xl:mt-20 mx-auto'>
+      <div className='md:w-[700px]  mt-12 xl:mt-20 mx-auto'>
         <div className='md:my-5 m-2'>
          
           <div className='flex justify-between cursor-pointer' onClick={handleClick}>
@@ -110,7 +110,7 @@ const handleClick4 = ()=>{
 </p>}
        </div>
       </div>
-      <div className='md:w-[800px] rounded-xl my-16 py-8 md:py-16 mx-auto dark:bg-zinc-900  bg-[#f6efe9]'>
+      <div className='md:w-[800px] w-[95%] rounded-xl my-16 py-8 md:py-16 mx-auto dark:bg-zinc-900  bg-[#f6efe9]'>
         <div className='w-[65px] flex mx-auto'>
           <img className='rounded-full ml-[-46px]' src={p1} alt="" />
           <img className='rounded-full ml-[-13px]' src={p2} alt="" />
