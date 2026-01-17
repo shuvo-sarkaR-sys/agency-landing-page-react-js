@@ -8,18 +8,18 @@ import p3 from '../assets/05.png'
 import { Swiper, SwiperSlide } from 'swiper/react';
 const Hero = () => {
   return (
-    <div className='xl:px-[150px] px-10  md:pb-10  dark:text-white dark:bg-[#141817]  bg-[#f6efe9]'>
+    <div className='xl:px-[150px] px-6  md:pb-10  dark:text-white dark:bg-[#141817]  bg-[#f6efe9]'>
       <div className='flex flex-wrap  gap-12' >
-        <div className='xl:mt-20 mt-10 w-[550px]  '>
-          <h1  className='xl:text-6xl xl:text-start text-center font-semibold text-4xl dark:text-white'  >Use Data & AI, Responsibly</h1>
-          <p className='text-xl mt-8 dark:text-white'>Unlock your productivity potential with our
+        <div className='xl:mt-20 mt-6 w-[550px]  '>
+          <h1  className='xl:text-6xl xl:text-start text-start font-semibold text-4xl dark:text-white'  >Use Data & AI, Responsibly</h1>
+          <p className='text-xl mt-4 dark:text-white'>Unlock your productivity potential with our
             intuitive and powerful to-do app. Manage tasks, set priorities, collaborate with your team, and track progress effortlessly.</p>
           <div className='flex gap-2 mt-12'>
             <input className='border-2 border-slate-400 pl-4 h-12 rounded-md  xl:w-[320px]' type="email" placeholder='Enter your email' />
             <button className='p-3 rounded-lg bg-[#12715b] dark:text-white'>Get a damo</button>
           </div>
           <p>We care about your data in our <span className='text-green-900 underline  '>privacy policy.</span></p>
-          <div className='flex gap-5 mt-10'>
+          <div className='flex gap-5 mt-5 md:mt-10'>
             <div className='flex'>
             <img className='w-12 rounded-full' src={group} alt="" />
             <img className='w-12 rounded-full ml-[-20px]' src={p1} alt="" />

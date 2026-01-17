@@ -36,7 +36,7 @@ const Navbar = () => {
 
         </div>
       </div>
-      <div className='flex    justify-between px-14 h-16 items-center'>
+      <div className='flex    justify-between px-6 xl:px-14 h-16 items-center'>
         <div className='flex gap-20'>
           <Link to="/"><h1 className='dark:text-white text-3xl font-bold items-center'>Dexend</h1></Link>
           <ul className='  xl:flex   hidden gap-10 font-medium items-center'>
