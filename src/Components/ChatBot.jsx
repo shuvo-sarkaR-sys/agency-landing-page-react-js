@@ -39,12 +39,12 @@ const ChatBot = () => {
         </button>
         <p className='absolute top-1 right-[-20px] bg-red-500 p-1 px-3 text-white rounded-full'>1</p>
       </div>) :
-        (<div className='fixed bottom-8 w-[400px] left-5 rounded-xl overflow-auto  h-[350px] bg-slate-50 '>
+        (<div className='fixed bottom-8 w-[230px] xl:w-[400px] left-5 rounded-xl overflow-auto h-[200px] xl:h-[350px] bg-slate-50 '>
           <div className='flex justify-between sticky top-0    bg-white px-5 pt-4'><p className='text-lg font-semibold'>Chat bot</p><button onClick={handleClick} ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
             <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
           </svg></button>
           </div>
-          <div className='min-h-64'>
+          <div className='min-h-[120px] xl:min-h-64'>
           {messages.map((msg, index) => (
             <div key={index} className={`p-1  ${msg.sender === "user" ? "text-right" : "text-left"}`}>
               <span className={`inline-block px-4 py-2 rounded-lg ${msg.sender === "user" ? "bg-blue-500 text-white" : "bg-gray-200"}`}>
@@ -54,9 +54,9 @@ const ChatBot = () => {
             </div>
           ))}</div>
 
-          <div className='ml-4'>
-            <input className='w-[270px] border-2 rounded-md h-[40px]' onChange={(e) => setInput(e.target.value)} onKeyDown={(e) => e.key === "Enter" && sendMessage()} type="text" />
-            <button className='p-2 bg-green-800 rounded-md text-white px-5' onClick={() => sendMessage()}>send</button>
+          <div className='ml-4 flex sticky bottom-0'>
+            <input className='xl:w-[270px] w-full border-2 rounded-md h-[40px]' onChange={(e) => setInput(e.target.value)} onKeyDown={(e) => e.key === "Enter" && sendMessage()} type="text" />
+            <button className='xl:p-2 px-2 xl:text-md text-xs bg-green-800 rounded-md text-white xl:px-5' onClick={() => sendMessage()}>send</button>
           </div>
         </div>)}
 

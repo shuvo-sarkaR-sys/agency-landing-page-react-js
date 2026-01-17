@@ -16,7 +16,7 @@ const Hero = () => {
             intuitive and powerful to-do app. Manage tasks, set priorities, collaborate with your team, and track progress effortlessly.</p>
           <div className='flex gap-2 mt-12'>
             <input className='border-2 border-slate-400 pl-4 h-12 rounded-md  xl:w-[320px]' type="email" placeholder='Enter your email' />
-            <button className='p-3 rounded-lg bg-[#12715b] dark:text-white'>Get a damo</button>
+            <button className='md:p-3 px-2 rounded-lg bg-[#12715b] dark:text-white'>Get a damo</button>
           </div>
           <p>We care about your data in our <span className='text-green-900 underline  '>privacy policy.</span></p>
           <div className='flex gap-5 mt-5 md:mt-10'>
